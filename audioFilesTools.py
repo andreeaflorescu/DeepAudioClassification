@@ -17,5 +17,10 @@ def getGenre(filename):
 		return audiofile.tag.genre.name.encode('utf-8')
 
 
+def setGenre(filename, genre):
+	audiofile = eyed3.load(filename)
+	audiofile.initTag()
+	audiofile.tag.genre=genre
 
-	
+	audiofile.tag.save()
+
