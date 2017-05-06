@@ -3,6 +3,7 @@ spectrogramsPath = "Data/Spectrograms/"
 slicesPath = "Data/Slices/"
 datasetPath = "Data/Dataset/"
 rawDataPath = "Data/Raw/"
+musicDBPath = "music_db"
 
 #Spectrogram resolution
 pixelPerSecond = 50
