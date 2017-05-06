@@ -1,0 +1,5 @@
+*.pyc
+music_db/*
+*.mp3
+*.swp
+
