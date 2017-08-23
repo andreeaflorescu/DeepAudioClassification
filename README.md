@@ -7,9 +7,11 @@ Required install:
 
 ```
 eyed3
-sox --with-lame
+sox --with-lame (sox + libsox-fmt-mp3)
 tensorflow
 tflearn
+h5py
+scipy
 ```
 
 - Create folder Data/Raw/

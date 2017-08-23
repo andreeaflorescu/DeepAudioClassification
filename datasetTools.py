@@ -7,6 +7,8 @@ from __future__ import print_function
 import os
 from PIL import Image
 from random import shuffle
+
+import errno
 import numpy as np
 import pickle
 
